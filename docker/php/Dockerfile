@@ -10,6 +10,7 @@ RUN set -eux && \
   cp /usr/share/zoneinfo/${TZ} /etc/localtime && \
   apk del .build-dependencies && \
   docker-php-ext-install bcmath pdo_mysql && \
+  apk add --update nodejs nodejs-npm && \
   curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer && \
   composer config -g repos.packagist composer https://packagist.jp && \
   composer global require hirak/prestissimo
