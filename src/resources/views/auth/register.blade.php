@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">{{ __('新規登録') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -44,6 +44,7 @@
                             <div class="col-md-6">
                                 <!-- <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password"> -->
                                 <input type="radio" name="sex" value="male">男性
+                            
                                 <input type="radio" name="sex" value="female">女性
                                 @error('sex')
                                     <span class="invalid-feedback" role="alert">
@@ -78,7 +79,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
+                                    {{ __('新規登録する') }}
                                 </button>
                             </div>
                         </div>
