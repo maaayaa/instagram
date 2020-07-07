@@ -73,9 +73,12 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="main">
             @yield('content')
         </main>
+        <footer class='footer p20'>
+          <small class='copyright'>Laravel instagram 2020 copyright</small>
+        </footer>
     </div>
 </body>
 </html>
