@@ -18,6 +18,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+    
 </head>
 <body>
     <div id="app">
@@ -43,6 +45,7 @@
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a href="nav-link"><img class ="login" src="{{ asset('images/login.png') }}" alt="次へ"></a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
