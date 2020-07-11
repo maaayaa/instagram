@@ -50,7 +50,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
@@ -62,6 +61,14 @@
                                         {{ __('パスワードを忘れた方') }}
                                     </a>
                                 @endif
+                                
+                            </div>
+                        </div>
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                    <a class="btn btn-link" href="{{ route('register') }}">
+                                        {{ __('新規登録の方はこちら') }}
+                                    </a>    
                             </div>
                         </div>
                     </form>
