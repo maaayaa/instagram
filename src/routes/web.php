@@ -14,12 +14,10 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-
-Auth::routes();
-
-
-Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'PostsController@index')->name('post');
-
-
+Auth::routes();
+Route::group(['middleware' => 'auth'], function () {
+Route::get('/post', 'PostsController@create')->name('create');
+});
+Route::get('/home', 'HomeController@index')->name('home');
 

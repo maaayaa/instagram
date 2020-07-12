@@ -20,6 +20,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/layout.css') }}" rel="stylesheet">
+    @yield('css')
     
 </head>
 <body>
@@ -43,6 +44,9 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto fa-3x">
                         <!-- Authentication Links -->
+                        <li class="nav-item">
+                            <a href="{{ route('create') }}" class="nav-link fas fa-pen"></a>
+                        </li>
                         @guest
                              <li class="nav-item">
                                 <a class="nav-link far fa-user" href="{{ route('login') }}"></a>    
