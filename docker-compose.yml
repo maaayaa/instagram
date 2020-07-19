@@ -1,6 +1,8 @@
 version: "3"
 services:
   app:
+    depends_on:
+      - db
     build:
       context: ./docker/php
       args:
@@ -18,9 +20,10 @@ services:
       - DB_PASSWORD=${DB_PASS}
       - TZ=${TZ}
   web:
-    image: nginx:1.17-alpine
     depends_on:
+      - db
       - app
+    image: nginx:1.17-alpine
     ports:
       - 10080:80
     volumes:
@@ -41,6 +44,8 @@ services:
       - MYSQL_PASSWORD=${DB_PASS}
       - MYSQL_ROOT_PASSWORD=${DB_PASS}
       - TZ=${TZ}
+    ports:
+      - 13306:3306
 
 volumes:
   db-store:
