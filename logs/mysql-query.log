@@ -1,0 +1,166 @@
+/usr/sbin/mysqld, Version: 8.0.20 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-07-18T18:26:57.423530+09:00	    8 Connect	homestead@localhost on homestead using Socket
+2020-07-18T18:26:57.437499+09:00	    8 Query	show databases
+2020-07-18T18:26:57.466412+09:00	    8 Query	show tables
+2020-07-18T18:26:57.482041+09:00	    8 Field List	failed_jobs 
+2020-07-18T18:26:57.523650+09:00	    8 Field List	migrations 
+2020-07-18T18:26:57.527061+09:00	    8 Field List	password_resets 
+2020-07-18T18:26:57.530017+09:00	    8 Field List	users 
+2020-07-18T18:26:57.534583+09:00	    8 Query	select @@version_comment limit 1
+2020-07-18T18:27:05.696569+09:00	    8 Query	show databases
+2020-07-18T18:27:29.202937+09:00	    8 Query	desc users
+2020-07-18T18:28:15.004160+09:00	    8 Quit	
+2020-07-19T11:24:04.747664+09:00	    9 Connect	homestead@localhost on homestead using Socket
+2020-07-19T11:24:04.761808+09:00	    9 Query	show databases
+2020-07-19T11:24:04.806869+09:00	    9 Query	show tables
+2020-07-19T11:24:04.829439+09:00	    9 Field List	failed_jobs 
+2020-07-19T11:24:04.836017+09:00	    9 Field List	migrations 
+2020-07-19T11:24:04.874903+09:00	    9 Field List	password_resets 
+2020-07-19T11:24:04.878081+09:00	    9 Field List	users 
+2020-07-19T11:24:04.881009+09:00	    9 Query	select @@version_comment limit 1
+2020-07-19T11:24:09.341521+09:00	    9 Quit	
+2020-07-19T11:26:46.854773+09:00	   10 Connect	homestead@localhost on homestead using Socket
+2020-07-19T11:26:46.866090+09:00	   10 Query	show databases
+2020-07-19T11:26:46.871501+09:00	   10 Query	show tables
+2020-07-19T11:26:46.879988+09:00	   10 Field List	failed_jobs 
+2020-07-19T11:26:46.884125+09:00	   10 Field List	migrations 
+2020-07-19T11:26:46.885907+09:00	   10 Field List	password_resets 
+2020-07-19T11:26:46.887360+09:00	   10 Field List	users 
+2020-07-19T11:26:46.889884+09:00	   10 Query	select @@version_comment limit 1
+2020-07-19T11:28:45.485685+09:00	   10 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T11:29:47.623436+09:00	   10 Query	CREATE DATABASE books CHARACTER SET utf8mb4
+2020-07-19T11:30:37.104076+09:00	   10 Quit	
+/usr/sbin/mysqld, Version: 8.0.20 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.20 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-07-19T11:41:32.186567+09:00	    8 Connect	homestead@localhost on homestead using Socket
+2020-07-19T11:41:32.203280+09:00	    8 Query	show databases
+2020-07-19T11:41:32.215738+09:00	    8 Query	show tables
+2020-07-19T11:41:32.226199+09:00	    8 Field List	failed_jobs 
+2020-07-19T11:41:32.259172+09:00	    8 Field List	migrations 
+2020-07-19T11:41:32.264330+09:00	    8 Field List	password_resets 
+2020-07-19T11:41:32.269670+09:00	    8 Field List	users 
+2020-07-19T11:41:32.277867+09:00	    8 Query	select @@version_comment limit 1
+2020-07-19T11:44:16.046151+09:00	    8 Query	show variables like '%char%'
+2020-07-19T11:44:54.786085+09:00	    8 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T11:48:01.881603+09:00	    8 Query	select Host, User from mysql.user
+2020-07-19T11:50:01.386537+09:00	    8 Quit	
+2020-07-19T11:51:05.713603+09:00	    9 Connect	homestead@localhost on homestead using Socket
+2020-07-19T11:51:05.720143+09:00	    9 Query	show databases
+2020-07-19T11:51:05.723501+09:00	    9 Query	show tables
+2020-07-19T11:51:05.732360+09:00	    9 Field List	failed_jobs 
+2020-07-19T11:51:05.734120+09:00	    9 Field List	migrations 
+2020-07-19T11:51:05.735427+09:00	    9 Field List	password_resets 
+2020-07-19T11:51:05.736968+09:00	    9 Field List	users 
+2020-07-19T11:51:05.738974+09:00	    9 Query	select @@version_comment limit 1
+2020-07-19T14:46:58.289354+09:00	    9 Quit	
+2020-07-19T14:47:03.764035+09:00	   10 Connect	homestead@localhost on homestead using Socket
+2020-07-19T14:47:03.767146+09:00	   10 Query	show databases
+2020-07-19T14:47:03.773261+09:00	   10 Query	show tables
+2020-07-19T14:47:03.781732+09:00	   10 Field List	failed_jobs 
+2020-07-19T14:47:03.789185+09:00	   10 Field List	migrations 
+2020-07-19T14:47:03.791384+09:00	   10 Field List	password_resets 
+2020-07-19T14:47:03.793187+09:00	   10 Field List	users 
+2020-07-19T14:47:03.795255+09:00	   10 Query	select @@version_comment limit 1
+2020-07-19T14:48:33.734611+09:00	   10 Quit	
+2020-07-19T14:48:42.309804+09:00	   11 Connect	homestead@localhost on homestead using Socket
+2020-07-19T14:48:42.322900+09:00	   11 Query	show databases
+2020-07-19T14:48:42.327809+09:00	   11 Query	show tables
+2020-07-19T14:48:42.333953+09:00	   11 Field List	failed_jobs 
+2020-07-19T14:48:42.336962+09:00	   11 Field List	migrations 
+2020-07-19T14:48:42.338897+09:00	   11 Field List	password_resets 
+2020-07-19T14:48:42.340349+09:00	   11 Field List	users 
+2020-07-19T14:48:42.343072+09:00	   11 Query	select @@version_comment limit 1
+2020-07-19T14:49:47.359481+09:00	   11 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T14:58:33.003514+09:00	   11 Query	show databases
+2020-07-19T15:03:00.116568+09:00	   11 Quit	
+2020-07-19T15:12:47.720196+09:00	   12 Connect	homestead@localhost on homestead using Socket
+2020-07-19T15:12:47.726910+09:00	   12 Query	show databases
+2020-07-19T15:12:47.749473+09:00	   12 Query	show tables
+2020-07-19T15:12:47.756886+09:00	   12 Field List	failed_jobs 
+2020-07-19T15:12:47.759098+09:00	   12 Field List	migrations 
+2020-07-19T15:12:47.760811+09:00	   12 Field List	password_resets 
+2020-07-19T15:12:47.762427+09:00	   12 Field List	users 
+2020-07-19T15:12:47.765468+09:00	   12 Query	select @@version_comment limit 1
+2020-07-19T15:12:53.491157+09:00	   12 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T15:14:32.561548+09:00	   12 Quit	
+2020-07-19T15:14:52.544492+09:00	   13 Connect	homestead@172.29.0.2 on homestead using TCP/IP
+2020-07-19T15:14:52.547197+09:00	   13 Query	use `homestead`
+2020-07-19T15:14:52.551200+09:00	   13 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2020-07-19T15:14:52.552986+09:00	   13 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2020-07-19T15:14:52.554512+09:00	   13 Close stmt	
+2020-07-19T15:14:52.556599+09:00	   13 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-07-19T15:14:52.557508+09:00	   13 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2020-07-19T15:14:52.558749+09:00	   13 Close stmt	
+2020-07-19T15:14:52.562710+09:00	   13 Prepare	select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+2020-07-19T15:14:52.583181+09:00	   13 Execute	select * from information_schema.tables where table_schema = 'homestead' and table_name = 'migrations' and table_type = 'BASE TABLE'
+2020-07-19T15:14:52.613427+09:00	   13 Close stmt	
+2020-07-19T15:14:52.679637+09:00	   13 Prepare	select `migration` from `migrations` order by `batch` asc, `migration` asc
+2020-07-19T15:14:52.680355+09:00	   13 Execute	select `migration` from `migrations` order by `batch` asc, `migration` asc
+2020-07-19T15:14:52.688522+09:00	   13 Close stmt	
+2020-07-19T15:14:52.717726+09:00	   13 Quit	
+2020-07-19T15:15:00.019299+09:00	   14 Connect	homestead@localhost on homestead using Socket
+2020-07-19T15:15:00.026909+09:00	   14 Query	show databases
+2020-07-19T15:15:00.038726+09:00	   14 Query	show tables
+2020-07-19T15:15:00.043971+09:00	   14 Field List	failed_jobs 
+2020-07-19T15:15:00.047744+09:00	   14 Field List	migrations 
+2020-07-19T15:15:00.049624+09:00	   14 Field List	password_resets 
+2020-07-19T15:15:00.051133+09:00	   14 Field List	users 
+2020-07-19T15:15:00.053803+09:00	   14 Query	select @@version_comment limit 1
+2020-07-19T15:15:38.049737+09:00	   14 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T15:24:23.934514+09:00	   14 Quit	
+/usr/sbin/mysqld, Version: 8.0.20 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-07-19T15:25:17.316224+09:00	    8 Connect	homestead@localhost on homestead using Socket
+2020-07-19T15:25:17.323437+09:00	    8 Query	show databases
+2020-07-19T15:25:17.334889+09:00	    8 Query	show tables
+2020-07-19T15:25:17.341598+09:00	    8 Field List	failed_jobs 
+2020-07-19T15:25:17.355701+09:00	    8 Field List	migrations 
+2020-07-19T15:25:17.358516+09:00	    8 Field List	password_resets 
+2020-07-19T15:25:17.361571+09:00	    8 Field List	users 
+2020-07-19T15:25:17.367276+09:00	    8 Query	select @@version_comment limit 1
+2020-07-19T15:25:43.868913+09:00	    8 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T15:26:09.942501+09:00	    8 Query	CREATE DATABASE instagram
+2020-07-19T15:27:02.332579+09:00	    8 Quit	
+2020-07-19T15:28:29.287437+09:00	    9 Connect	homestead@localhost on homestead using Socket
+2020-07-19T15:28:29.293573+09:00	    9 Query	show databases
+2020-07-19T15:28:29.298333+09:00	    9 Query	show tables
+2020-07-19T15:28:29.304619+09:00	    9 Field List	failed_jobs 
+2020-07-19T15:28:29.323852+09:00	    9 Field List	migrations 
+2020-07-19T15:28:29.324973+09:00	    9 Field List	password_resets 
+2020-07-19T15:28:29.326145+09:00	    9 Field List	users 
+2020-07-19T15:28:29.329277+09:00	    9 Query	select @@version_comment limit 1
+2020-07-19T15:28:33.304545+09:00	    9 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T21:04:19.077238+09:00	    9 Quit	
+/usr/sbin/mysqld, Version: 8.0.20 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-07-19T21:05:07.617670+09:00	    8 Connect	homestead@localhost on homestead using Socket
+2020-07-19T21:05:07.721033+09:00	    8 Query	show databases
+2020-07-19T21:05:07.732887+09:00	    8 Query	show tables
+2020-07-19T21:05:07.743258+09:00	    8 Field List	failed_jobs 
+2020-07-19T21:05:07.770181+09:00	    8 Field List	migrations 
+2020-07-19T21:05:07.774655+09:00	    8 Field List	password_resets 
+2020-07-19T21:05:07.777818+09:00	    8 Field List	users 
+2020-07-19T21:05:07.783705+09:00	    8 Query	select @@version_comment limit 1
+2020-07-19T21:05:22.219913+09:00	    8 Query	CREATE DATABASE books CHARACTER SET utf8mb4
+2020-07-19T21:12:25.257223+09:00	    8 Quit	
+/usr/sbin/mysqld, Version: 8.0.20 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-07-19T21:13:19.125442+09:00	    8 Connect	homestead@localhost on homestead using Socket
+2020-07-19T21:13:19.134046+09:00	    8 Query	show databases
+2020-07-19T21:13:19.142903+09:00	    8 Query	show tables
+2020-07-19T21:13:19.152742+09:00	    8 Field List	failed_jobs 
+2020-07-19T21:13:19.189064+09:00	    8 Field List	migrations 
+2020-07-19T21:13:19.193388+09:00	    8 Field List	password_resets 
+2020-07-19T21:13:19.197217+09:00	    8 Field List	users 
+2020-07-19T21:13:19.202015+09:00	    8 Query	select @@version_comment limit 1
+2020-07-19T21:13:44.557285+09:00	    8 Query	CREATE DATABASE instagram CHARACTER SET utf8mb4
+2020-07-19T21:19:54.780775+09:00	    8 Quit	
